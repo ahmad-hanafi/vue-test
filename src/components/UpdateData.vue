@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Navbar />
     <form>
         <label for="name">Product Name</label><br />
         <div class="d-flex justify-content-center">
@@ -35,9 +36,13 @@
 </template>
 
 <script>
+import Navbar from '@/components/Navbar.vue'
 
 export default {
   name: 'updateProduct',
+  components: {
+    Navbar
+  },
   computed: {
     product() {
       return this.$store.state.product;

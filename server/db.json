@@ -1,0 +1,19 @@
+{
+  "list": [
+    {
+      "name": "Indomie Goreng Rasa Rendang",
+      "quantity": "5",
+      "id": 1
+    },
+    {
+      "name": "Indomie Goreng Rasa Mie Aceh",
+      "quantity": "6",
+      "id": 2
+    },
+    {
+      "name": "Ayam 5kg",
+      "quantity": "1",
+      "id": 3
+    }
+  ]
+}

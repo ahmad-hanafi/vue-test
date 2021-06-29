@@ -16,14 +16,14 @@
           <td>{{ product.quantity }}</td>
           <td>
             <button
-              class="btn btn-info"
+              class="btn btn-info mr-2 ml-2"
               type="button"
               @click.prevent="getProductById(product.id)"
             >
               Edit
             </button>
             <button
-              class="btn btn-danger"
+              class="btn btn-danger mr-2 ml-2"
               type="button"
               @click.prevent="deleteProduct(product.id)"
             >
